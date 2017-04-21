@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  windowsmvcapp:
+    image: windowsmvcapp
+    build:
+      context: .\WindowsMvcApp
+      dockerfile: Dockerfile
