@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   windowsmvcapp:
-    image: windowsmvcapp
+    image: amalwin/cdtest
     build:
       context: .\WindowsMvcApp
       dockerfile: Dockerfile
