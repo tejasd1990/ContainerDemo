@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "jamindaaks2"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "jamindaaks2"
+    spec:
+      containers:
+        - name: "jamindaaks2"
+          image: "abhisheaacr.azurecr.io/jamindaaks2438c"
+          ports:
+          - containerPort: 80
